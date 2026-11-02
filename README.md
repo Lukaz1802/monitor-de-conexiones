@@ -19,7 +19,7 @@ Creado por **Lucas Lopez** · [lucaslopez.com.ar](https://lucaslopez.com.ar)
 
 Lo recomendado es compilarlo tú mismo. Tarda unos segundos y no hay que instalar nada, porque usa el compilador de C# que ya viene con Windows (.NET Framework 4).
 
-1. Pulsa el botón verde **Code → Download ZIP** y descomprime el archivo.
+1. Descarga el [ZIP del proyecto](https://github.com/Lukaz1802/monitor-de-conexiones/archive/refs/heads/main.zip), o pulsa el botón verde **Code → Download ZIP**, y descomprímelo.
 2. Entra en la carpeta `codigo` y haz doble clic en `compilar.bat`.
 3. Cuando diga «Listo», tendrás `MonitorConexiones.exe` en la carpeta principal.
 
@@ -100,6 +100,10 @@ Está escrito en C# con Windows Forms y no usa bibliotecas externas.
 | [Registros.cs](codigo/Registros.cs) | Alertas guardadas, programas conocidos y ajustes |
 | [Nativo.cs](codigo/Nativo.cs) | Llamadas a Windows: tabla de conexiones, firmas digitales y DNS inverso |
 | [compilar.bat](codigo/compilar.bat) | Compila el programa |
+
+## Licencia
+
+Código abierto bajo la [licencia MIT](LICENSE).
 
 ## Autor
 
